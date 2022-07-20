@@ -14,6 +14,13 @@
     b = 4
     print("<p>Hello world</p>")
     print(a + b)
+    from tkinter import *
+    master = Tk()
+    def close_window():
+        exit()
+    button = Button(master, text = 'Click me', command = close_window)
+    button.pack()
+    mainloop()
     </py-script>
     <py-repl>
       print("hello")

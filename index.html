@@ -15,7 +15,15 @@
     b = 4
     print("<p>Hello world</p>")
     print(a + b)
-
+    from tkinter import *
+    def d():
+        master = Tk()
+        def close_window():
+            print("hhhhhhh")
+        button = Button(master, text = 'Click me', command = close_window)
+        button.pack()
+        mainloop()
+    d()
     </py-script>
     <py-repl>
       print("hello")

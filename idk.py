@@ -1,5 +1,6 @@
 pip install tk
 from tkinter import *
+def d():
     master = Tk()
     def close_window():
         print("hhhhhhh")

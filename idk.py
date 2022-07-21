@@ -1,4 +1,3 @@
-pip install tk
 from tkinter import *
 def d():
     master = Tk()
